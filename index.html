@@ -2,7 +2,7 @@
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>نعمة</title>
+  <title>نعمة | صانعة محتوى</title>
 
   <style>
     body {
@@ -10,26 +10,45 @@
       font-family: 'Segoe UI', Tahoma, sans-serif;
       background: #f7f7f7;
       direction: rtl;
-      text-align: center;
     }
 
     .hero {
       background: linear-gradient(135deg, #f3e8ff, #fdecef);
-      padding: 100px 20px;
+      padding: 90px 20px;
+      text-align: center;
+    }
+
+    .profile {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     }
 
     .hero h1 {
       font-size: 46px;
-      margin-bottom: 10px;
+      margin: 0 0 10px;
     }
 
     .hero p {
       font-size: 18px;
       color: #555;
+      margin: 0;
     }
 
     .section {
       padding: 50px 20px;
+      text-align: center;
+    }
+
+    .section p {
+      font-size: 17px;
+      color: #444;
+      max-width: 500px;
+      margin: 0 auto 30px;
+      line-height: 1.8;
     }
 
     .links a {
@@ -43,6 +62,11 @@
       border-radius: 14px;
       font-weight: 600;
       box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      transition: transform 0.2s;
+    }
+
+    .links a:hover {
+      transform: scale(1.03);
     }
   </style>
 </head>
@@ -50,19 +74,22 @@
 <body>
 
   <div class="hero">
+    <!-- غيري اسم الصورة إذا حابة -->
+    <img src="profile.jpg" class="profile" alt="نعمة">
     <h1>نعمة</h1>
     <p>صانعة محتوى لايف ستايل وفلوغات</p>
   </div>
 
   <div class="section">
     <p>
-      أشارك لحظات من حياتي اليومية وتجربتي في صناعة المحتوى.
+      أشارك لحظات من حياتي اليومية وتجربتي في صناعة المحتوى
+      بأسلوب بسيط وقريب من القلب 🤍
     </p>
 
     <div class="links">
-      <a href="#">إنستقرام</a>
-      <a href="#">يوتيوب</a>
-      <a href="#">للتواصل</a>
+      <a href="https://instagram.com/USERNAME" target="_blank">Instagram</a>
+      <a href="https://youtube.com/@USERNAME" target="_blank">YouTube</a>
+      <a href="mailto:youremail@gmail.com">Email</a>
     </div>
   </div>
 
